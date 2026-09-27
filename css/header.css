@@ -1,0 +1,347 @@
+/* =========================
+   HEADER
+========================= */
+
+.header {
+    width: 100%;
+    height: 330px;
+
+    position: relative;
+    padding-top: 20px;
+}
+
+.header-inner {
+    width: 1390px;
+    height: 100%;
+
+    margin: 0 auto;
+
+    position: relative;
+}
+
+
+/* =========================
+   MENU
+========================= */
+
+.menu {
+    position: absolute;
+
+    left: 4px;
+    top: 8px;
+
+    width: 32px;
+    height: 32px;
+}
+
+.menu span {
+    display: block;
+
+    width: 27px;
+    height: 2px;
+
+    margin: 7px 0;
+
+    background: #222;
+}
+
+
+/* =========================
+   PAY
+========================= */
+
+.pay {
+    position: absolute;
+
+    left: 55px;
+    top: 5px;
+
+    width: 36px;
+    height: 36px;
+
+    border: 2px solid #222;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 15px;
+}
+
+
+/* =========================
+   HEADER ICONS
+========================= */
+
+.header-icons {
+    position: absolute;
+
+    right: 0;
+    top: 4px;
+
+    display: flex;
+    gap: 28px;
+}
+
+
+/* 알림 */
+
+.bell {
+    width: 25px;
+    height: 27px;
+
+    border: 2px solid #222;
+    border-radius: 15px 15px 10px 10px;
+
+    position: relative;
+}
+
+.bell::after {
+    content: "";
+
+    position: absolute;
+
+    left: 7px;
+    bottom: -5px;
+
+    width: 7px;
+    height: 3px;
+
+    border-radius: 50%;
+
+    background: #222;
+}
+
+
+/* 쇼핑백 */
+
+.bag {
+    width: 25px;
+    height: 22px;
+
+    margin-top: 5px;
+
+    border: 2px solid #222;
+
+    position: relative;
+}
+
+.bag::before {
+    content: "";
+
+    position: absolute;
+
+    left: 5px;
+    top: -8px;
+
+    width: 10px;
+    height: 8px;
+
+    border: 2px solid #222;
+    border-bottom: 0;
+
+    border-radius: 8px 8px 0 0;
+}
+
+
+/* =========================
+   SEARCH
+========================= */
+
+.search-area {
+    position: absolute;
+
+    left: 310px;
+    top: 65px;
+
+    width: 770px;
+    height: 67px;
+}
+
+.search-box {
+    width: 100%;
+    height: 67px;
+
+    padding: 0 25px;
+
+    border: 1.5px solid #42c866;
+    border-radius: 36px;
+
+    display: flex;
+    align-items: center;
+}
+
+
+/* N 로고 */
+
+.n-logo {
+    margin-right: 17px;
+
+    color: #40c65a;
+
+    font-size: 39px;
+    font-weight: 900;
+}
+
+
+/* 검색 입력 */
+
+.search-input {
+    flex: 1;
+
+    height: 100%;
+
+    border: none;
+    outline: none;
+
+    font-size: 22px;
+
+    background: transparent;
+}
+
+
+/* 키보드 */
+
+.keyboard {
+    margin-right: 25px;
+
+    color: #888;
+
+    font-size: 20px;
+}
+
+
+/* AI */
+
+.ai {
+    height: 43px;
+
+    padding: 0 17px;
+
+    border-radius: 23px;
+
+    background: #f1f8f7;
+
+    display: flex;
+    align-items: center;
+
+    gap: 8px;
+
+    color: #5b6c77;
+
+    font-weight: bold;
+}
+
+.ai-icon {
+    font-size: 20px;
+}
+
+
+/* =========================
+   SERVICE MENU
+========================= */
+
+.service-menu {
+    position: absolute;
+
+    left: 315px;
+    top: 145px;
+
+    display: flex;
+
+    gap: 27px;
+}
+
+.service {
+    width: 42px;
+
+    flex-shrink: 0;
+
+    text-align: center;
+
+    color: #333;
+
+    font-size: 12px;
+}
+
+.service-icon {
+    width: 43px;
+    height: 43px;
+
+    margin-bottom: 8px;
+
+    border-radius: 14px;
+
+    background: #f4f7f5;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 21px;
+    font-weight: bold;
+}
+
+
+/* 아이콘 색상 */
+
+.service:nth-child(1) .service-icon {
+    color: #3bb35c;
+}
+
+.service:nth-child(2) .service-icon {
+    color: #52b875;
+}
+
+.service:nth-child(3) .service-icon {
+    color: #40a95b;
+}
+
+.service:nth-child(4) .service-icon {
+    background: #6047bb;
+    color: white;
+}
+
+.service:nth-child(5) .service-icon {
+    color: #427bd1;
+}
+
+.service:nth-child(6) .service-icon {
+    color: #111;
+}
+
+.service:nth-child(7) .service-icon {
+    color: #44b75d;
+}
+
+.service:nth-child(8) .service-icon {
+    color: #4681d5;
+}
+
+.service:nth-child(9) .service-icon {
+    color: #54ad65;
+}
+
+.service:nth-child(10) .service-icon {
+    background: #111;
+    color: white;
+}
+
+
+/* 더보기 */
+
+.service-more {
+    width: 45px;
+    height: 45px;
+
+    flex-shrink: 0;
+
+    border-radius: 50%;
+
+    background: #f5f6f7;
+
+    color: #777;
+
+    font-size: 20px;
+}

@@ -1,0 +1,292 @@
+/* =========================
+   RIGHT COLUMN
+========================= */
+
+.right-column {
+    width: 460px;
+}
+
+
+/* =========================
+   LOGIN
+========================= */
+
+.login-box {
+    width: 100%;
+    height: 184px;
+
+    padding: 25px 22px;
+
+    border: 1px solid #eee;
+    border-radius: 11px;
+}
+
+.login-text {
+    margin-bottom: 17px;
+
+    color: #555;
+
+    text-align: center;
+
+    font-size: 15px;
+}
+
+.login-button {
+    width: 100%;
+    height: 60px;
+
+    border-radius: 5px;
+
+    background: #55ae5c;
+
+    color: white;
+
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.login-links {
+    margin-top: 20px;
+
+    color: #888;
+
+    text-align: center;
+
+    font-size: 13px;
+}
+
+.login-links span {
+    margin: 0 7px;
+}
+
+
+/* =========================
+   AD
+========================= */
+
+.ad {
+    width: 100%;
+    height: 265px;
+
+    margin-top: 16px;
+
+    padding: 17px 20px;
+
+    position: relative;
+
+    overflow: hidden;
+
+    border: 1px solid #eee;
+    border-radius: 11px;
+}
+
+.ad-label {
+    position: absolute;
+
+    right: 10px;
+    top: 10px;
+
+    color: #aaa;
+
+    font-size: 11px;
+}
+
+.ad-title {
+    margin-bottom: 12px;
+
+    font-size: 19px;
+    font-weight: bold;
+}
+
+
+/* 광고 이미지 */
+
+.ad-image {
+    width: 100%;
+    height: 130px;
+
+    overflow: hidden;
+
+    background:
+        linear-gradient(
+            135deg,
+            #fff 0%,
+            #eee 100%
+        );
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lego {
+    width: 180px;
+    height: 105px;
+
+    border-radius: 9px;
+
+    background: #f3ce39;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 40px;
+}
+
+.ad-description {
+    position: absolute;
+
+    right: 25px;
+    top: 92px;
+
+    text-align: center;
+
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.ad-button {
+    position: absolute;
+
+    left: 20px;
+    right: 20px;
+    bottom: 17px;
+
+    height: 34px;
+
+    border-radius: 18px;
+
+    background: #58aa83;
+
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bold;
+}
+
+
+/* =========================
+   BOTTOM AD
+========================= */
+
+.ad-bottom {
+    width: 100%;
+    height: 90px;
+
+    margin-top: 16px;
+
+    padding-left: 25px;
+
+    border-radius: 10px;
+
+    background:
+        linear-gradient(
+            90deg,
+            #e9e0d4,
+            #fff
+        );
+
+    display: flex;
+    align-items: center;
+
+    font-size: 17px;
+}
+
+
+/* =========================
+   UPDATE POPUP
+========================= */
+
+.update-popup {
+    width: 350px;
+    height: 150px;
+
+    position: fixed;
+
+    right: 12px;
+    bottom: 0;
+
+    z-index: 10;
+
+    padding: 20px;
+
+    border: 1px solid #dce4ff;
+    border-radius: 15px 15px 0 0;
+
+    background: white;
+
+    box-shadow:
+        0 3px 20px rgba(0, 0, 0, .08);
+}
+
+.close {
+    position: absolute;
+
+    right: 10px;
+    top: 8px;
+
+    color: #777;
+
+    font-size: 23px;
+}
+
+.popup-content {
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+}
+
+
+/* 웨일 아이콘 */
+
+.edge-icon {
+    width: 55px;
+    height: 55px;
+
+    flex-shrink: 0;
+
+    border-radius: 50%;
+
+    background:
+        linear-gradient(
+            135deg,
+            #147bd1,
+            #42b982
+        );
+}
+
+.popup-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.popup-sub {
+    margin-top: 6px;
+
+    color: #555;
+
+    font-size: 13px;
+
+    line-height: 1.4;
+}
+
+.download {
+    width: 100%;
+    height: 34px;
+
+    margin-top: 14px;
+
+    border-radius: 18px;
+
+    background: #5488eb;
+
+    color: white;
+
+    font-weight: bold;
+}

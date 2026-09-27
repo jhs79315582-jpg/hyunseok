@@ -1,0 +1,382 @@
+/* =========================
+   MAIN
+========================= */
+
+.main {
+    width: 1390px;
+
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-columns: 910px 460px;
+
+    gap: 30px;
+}
+
+
+/* =========================
+   LEFT COLUMN
+========================= */
+
+.left-column {
+    width: 910px;
+}
+
+
+/* =========================
+   BANNER
+========================= */
+
+.banner {
+    width: 100%;
+    height: 145px;
+
+    position: relative;
+
+    overflow: hidden;
+
+    border-radius: 11px;
+
+    background:
+        linear-gradient(
+            90deg,
+            #f2ede8 0%,
+            #fff 45%,
+            #e8e4dd 100%
+        );
+
+    display: flex;
+    align-items: center;
+}
+
+.banner-text {
+    margin-left: 270px;
+
+    text-align: center;
+}
+
+.banner-small {
+    margin-bottom: 3px;
+
+    font-size: 18px;
+}
+
+.banner-title {
+    color: #367ce8;
+
+    font-size: 30px;
+    font-weight: 800;
+
+    line-height: 1.2;
+}
+
+.banner-sub {
+    margin-top: 8px;
+
+    font-size: 16px;
+}
+
+
+/* 상품 이미지 */
+
+.banner-product {
+    position: absolute;
+
+    right: 35px;
+    bottom: -15px;
+
+    width: 190px;
+    height: 125px;
+
+    border: 7px solid #c8c8c8;
+
+    border-radius: 50%;
+
+    background:
+        radial-gradient(
+            circle at 25% 30%,
+            #ddd 0 5px,
+            transparent 6px
+        ),
+
+        radial-gradient(
+            circle at 50% 50%,
+            #ddd 0 5px,
+            transparent 6px
+        ),
+
+        radial-gradient(
+            circle at 75% 35%,
+            #ddd 0 5px,
+            transparent 6px
+        ),
+
+        #d8d8d8;
+
+    box-shadow:
+        inset 0 0 15px #aaa;
+}
+
+
+/* =========================
+   NEWSSTAND
+========================= */
+
+.newsstand {
+    margin-top: 17px;
+
+    overflow: hidden;
+
+    border: 1px solid #eee;
+    border-radius: 9px;
+}
+
+
+/* 헤더 */
+
+.news-header {
+    height: 64px;
+
+    padding: 0 22px;
+
+    border-bottom: 1px solid #eee;
+
+    display: flex;
+    align-items: center;
+}
+
+.news-title {
+    font-size: 19px;
+    font-weight: 800;
+}
+
+.news-category {
+    margin-left: 12px;
+
+    color: #777;
+
+    font-size: 15px;
+
+    white-space: nowrap;
+}
+
+.news-tabs {
+    margin-left: auto;
+
+    color: #777;
+
+    white-space: nowrap;
+}
+
+
+/* =========================
+   NEWS SEARCH
+========================= */
+
+.news-search {
+    height: 56px;
+
+    padding: 0 20px;
+
+    background: #fafafa;
+
+    display: flex;
+    align-items: center;
+
+    font-size: 14px;
+}
+
+.news-search-left {
+    margin-right: 20px;
+
+    white-space: nowrap;
+}
+
+.news-search-text {
+    overflow: hidden;
+
+    color: #777;
+
+    white-space: nowrap;
+
+    text-overflow: ellipsis;
+}
+
+.news-search-right {
+    margin-left: auto;
+
+    white-space: nowrap;
+
+    font-weight: bold;
+}
+
+
+/* =========================
+   PRESS GRID
+========================= */
+
+.press-grid {
+    margin: 18px 22px 0;
+
+    display: grid;
+
+    grid-template-columns: repeat(6, 1fr);
+
+    border-top: 1px solid #eee;
+    border-left: 1px solid #eee;
+}
+
+.press {
+    height: 62px;
+
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+/* 언론사별 스타일 */
+
+.press:nth-child(1) {
+    font-style: italic;
+}
+
+.press:nth-child(2) {
+    color: #4b50bd;
+}
+
+.press:nth-child(3) {
+    color: #e63327;
+}
+
+.press:nth-child(4) {
+    font-family: serif;
+}
+
+.press:nth-child(5) {
+    color: #1d3478;
+}
+
+.press:nth-child(6) {
+    color: #e36b35;
+}
+
+.press:nth-child(7) {
+    color: #333;
+}
+
+.press:nth-child(8) {
+    color: #1e4999;
+}
+
+.press:nth-child(9) {
+    color: #db9b2b;
+}
+
+.press:nth-child(10) {
+    color: #315bc0;
+}
+
+.press:nth-child(11) {
+    font-family: serif;
+}
+
+.press:nth-child(12) {
+    color: #4183b0;
+}
+
+.press:nth-child(13) {
+    color: #c8322e;
+}
+
+.press:nth-child(14) {
+    color: #24499c;
+}
+
+.press:nth-child(15) {
+    color: #d6322c;
+}
+
+.press:nth-child(16) {
+    color: #4390a8;
+}
+
+.press:nth-child(17) {
+    color: #dd3828;
+}
+
+.press:nth-child(18) {
+    color: #34465f;
+}
+
+.press:nth-child(19) {
+    color: #222;
+}
+
+.press:nth-child(20) {
+    color: #5c5c5c;
+}
+
+.press:nth-child(21) {
+    color: #e05b30;
+}
+
+.press:nth-child(22) {
+    color: #222;
+}
+
+.press:nth-child(23) {
+    color: #1f4d8d;
+}
+
+.press:nth-child(24) {
+    color: #555;
+}
+
+
+/* =========================
+   NEWS FOOTER
+========================= */
+
+.news-footer {
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 30px;
+
+    color: #666;
+
+    font-size: 14px;
+}
+
+.arrow {
+    width: 35px;
+    height: 35px;
+
+    border: 1px solid #eee;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #666;
+
+    font-size: 22px;
+}
+
+.page {
+    color: #3c7de8;
+
+    font-weight: bold;
+}

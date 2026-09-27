@@ -1,0 +1,140 @@
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 1100px) {
+
+    .header-inner,
+    .main {
+        width: 94%;
+    }
+
+
+    /* 메인 1열 */
+
+    .main {
+        grid-template-columns: 1fr;
+    }
+
+
+    .left-column,
+    .right-column {
+        width: 100%;
+    }
+
+
+    /* 검색창 */
+
+    .search-area {
+        left: 50%;
+
+        width: 60%;
+
+        transform: translateX(-50%);
+    }
+
+
+    /* 서비스 메뉴 */
+
+    .service-menu {
+        left: 50%;
+
+        transform: translateX(-50%);
+    }
+
+
+    /* 오른쪽 */
+
+    .right-column {
+        display: grid;
+
+        grid-template-columns: 1fr 1fr;
+
+        gap: 15px;
+    }
+
+
+    .ad-bottom {
+        display: none;
+    }
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 700px) {
+
+    .header {
+        height: 260px;
+    }
+
+
+    /* 검색 */
+
+    .search-area {
+        top: 65px;
+
+        width: 90%;
+    }
+
+
+    /* 서비스 */
+
+    .service-menu {
+        left: 2.5%;
+
+        width: 95%;
+
+        overflow-x: auto;
+
+        justify-content: flex-start;
+
+        gap: 16px;
+
+        transform: none;
+    }
+
+    .service {
+        flex-shrink: 0;
+    }
+
+
+    /* 배너 */
+
+    .banner-text {
+        margin-left: 20px;
+    }
+
+    .banner-title {
+        font-size: 20px;
+    }
+
+    .banner-product {
+        display: none;
+    }
+
+
+    /* 언론사 */
+
+    .press-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+
+    /* 오른쪽 */
+
+    .right-column {
+        display: grid;
+
+        grid-template-columns: 1fr;
+    }
+
+
+    /* 팝업 */
+
+    .update-popup {
+        display: none;
+    }
+}
